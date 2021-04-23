@@ -1,82 +1,81 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import ProjectCard from "./ProjectCards";
-import BlogCard from "./BlogsCards";
-import Particle from "../Particle";
-import "../../style.css";
-import "bootstrap/dist/css/bootstrap.min.css";
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import ProjectCard from './ProjectCards';
+import BlogCard from './BlogsCards';
+import Particle from '../Particle';
+import '../../style.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.jpeg";
-import editor from "../../Assets/Projects/codeEditor.png";
-import eeg from "../../Assets/Projects/eeg.gif";
-import suicide from "../../Assets/Projects/suicide.png";
-import algo from "../../Assets/Projects/algo.png";
-import plant from "../../Assets/Projects/plant.jpeg";
+import airgng from '../../Assets/Projects/airgng.png';
+import easymeals from '../../Assets/Projects/EasyMeals.png';
+import goodbuilds from '../../Assets/Projects/GoodBuilds.png';
+import spacehunt from '../../Assets/Projects/Spacehunt.png';
 
 function Projects() {
-  return (
-    <Container fluid className="project-section">
-      <Particle />
-      <Container>
-        <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
-        </h1>
-        <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
-        </p>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="coming soon"
-              description="coming soon"
-              link="https://github.com/soumyajit4419/Plant_AI"
-            />
-          </Col>
+	return (
+		<Container fluid className='project-section'>
+			<Particle />
+			<Container>
+				<h1 className='project-heading'>
+					My Recent <strong className='purple'>Works </strong>
+				</h1>
+				<p style={{ color: 'white' }}>
+					Here are a few projects I've worked on recently.
+				</p>
+				<Row
+					style={{ justifyContent: 'center', paddingBottom: '10px' }}
+				>
+					<Col md={4} className='project-card'>
+						<ProjectCard
+							imgPath={easymeals}
+							isBlog={false}
+							title='Easy Meals'
+							description='Meal planning app based on food groups'
+							link='https://github.com/clarion22/EasyMeals'
+						/>
+					</Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={editor}
-              isBlog={false}
-              title="Editor.io"
-              description=""
-              link="https://github.com/soumyajit4419/Editor.io"
-            />
-          </Col>
+					<Col md={4} className='project-card'>
+						<ProjectCard
+							imgPath={spacehunt}
+							isBlog={false}
+							title='Space Hunt'
+							description='SpaceHunt, a ProductHunt clone, is a curation of amazing outer space technology development projects.'
+							link='https://github.com/clarion22/Space-Hunt'
+						/>
+					</Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title=""
-              description=""
-              link="https://github.com/soumyajit4419/AI_For_Social_Good"
-            />
-          </Col>
+					<Col md={4} className='project-card'>
+						<ProjectCard
+							imgPath={airgng}
+							isBlog={false}
+							title='AirGng'
+							description='AirBnb clone, AirGnG is an aircraft booking and review service.'
+							link='https://github.com/dunnjm814/air_gng'
+						/>
+					</Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title=""
-              description=""
-              link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-            />
-          </Col>
+					<Col md={4} className='project-card'>
+						<ProjectCard
+							imgPath={goodbuilds}
+							isBlog={false}
+							title='Good Builds'
+							description='Review and rating app that harnesses community engagement to improve the experience of selecting, buying and building flat pack furniture'
+							link='https://github.com/andrewscohen/2020-Oct-GoodBuilds'
+						/>
+					</Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={eeg}
-              isBlog={false}
-              title=""
-              description=""
-              link="https://gist.github.com/soumyajit4419/dc94177bc4954752051798f88fbce1df"
-            />
-          </Col>
-        </Row>
-        {/* <h1 className="project-heading">
+					<Col md={4} className='project-card'>
+						{/* <ProjectCard
+							imgPath={eeg}
+							isBlog={false}
+							title='Good Builds'
+							description=''
+							link='https://github.com/andrewscohen/2020-Oct-GoodBuilds'
+						/> */}
+					</Col>
+				</Row>
+				{/* <h1 className="project-heading">
           My Recent <strong className="purple">Blog </strong> Posts
         </h1>
         <p style={{ color: "white" }}>Do give a read to some of my blogs</p>
@@ -98,9 +97,9 @@ function Projects() {
             />
           </Col>
         </Row> */}
-      </Container>
-    </Container>
-  );
+			</Container>
+		</Container>
+	);
 }
 
 export default Projects;
