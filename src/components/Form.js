@@ -11,13 +11,14 @@ function Form() {
 		email: '',
 		message: '',
 	});
-
+	const [sent, setSent] = useState(false);
 	const onSubmit = (e) => {
 		e.preventDefault();
 
 		emailjs.send('contact_form', 'template_ycyvhgw', toSend).then(
 			(result) => {
 				console.log(result.text);
+				setSent(true);
 			},
 			(error) => {
 				console.log(error.text);
@@ -77,6 +78,17 @@ function Form() {
 						Send
 					</button>
 				</form>
+				{sent ? (
+					<div
+						className='alert alert-success'
+						role='alert'
+						style={{ marginTop: '20px' }}
+					>
+						Email Sent!
+					</div>
+				) : (
+					''
+				)}
 			</Container>
 		</Container>
 	);
