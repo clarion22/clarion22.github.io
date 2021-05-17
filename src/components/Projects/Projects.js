@@ -10,6 +10,7 @@ import airgng from '../../Assets/Projects/airgng.png';
 import easymeals from '../../Assets/Projects/EasyMeals.png';
 import goodbuilds from '../../Assets/Projects/GoodBuilds.png';
 import spacehunt from '../../Assets/Projects/Spacehunt.png';
+import quotesapi from '../../Assets/Projects/demotivationalapi.png';
 
 function Projects() {
 	return (
@@ -66,13 +67,13 @@ function Projects() {
 					</Col>
 
 					<Col md={4} className='project-card'>
-						{/* <ProjectCard
-							imgPath={eeg}
+						<ProjectCard
+							imgPath={quotesapi}
 							isBlog={false}
-							title='Good Builds'
-							description=''
-							link='https://github.com/andrewscohen/2020-Oct-GoodBuilds'
-						/> */}
+							title='Demotivational Quotes API'
+							description='REST API for serving demotiational quotes. Built with Express.Js and MongoDb.'
+							link='https://github.com/clarion22/demotivational-quotes-api'
+						/>
 					</Col>
 				</Row>
 				{/* <h1 className="project-heading">
