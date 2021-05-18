@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import SocialMedia from './SocialMedia';
 import emailjs from 'emailjs-com';
 import '../style.css';
 import { init } from 'emailjs-com';
@@ -90,6 +91,7 @@ function Form() {
 					''
 				)}
 			</Container>
+			<SocialMedia />
 		</Container>
 	);
 }
