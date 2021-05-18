@@ -31,8 +31,9 @@ function Projects() {
 							imgPath={easymeals}
 							isBlog={false}
 							title='Easy Meals'
-							description='Meal planning app based on food groups'
+							description='Meal planning app based on food groups. Nutrition calculator, save plates, favorite plates, and add to calendar.'
 							link='https://github.com/clarion22/EasyMeals'
+							livelink='https://eazymeals.herokuapp.com/'
 						/>
 					</Col>
 
@@ -43,6 +44,7 @@ function Projects() {
 							title='Space Hunt'
 							description='SpaceHunt, a ProductHunt clone, is a curation of amazing outer space technology development projects.'
 							link='https://github.com/clarion22/Space-Hunt'
+							livelink='https://spacehunt.herokuapp.com/'
 						/>
 					</Col>
 
@@ -53,6 +55,7 @@ function Projects() {
 							title='AirGng'
 							description='AirBnb clone, AirGnG is an aircraft booking and review service.'
 							link='https://github.com/dunnjm814/air_gng'
+							livelink='https://air-gng.herokuapp.com/'
 						/>
 					</Col>
 
@@ -63,6 +66,7 @@ function Projects() {
 							title='Good Builds'
 							description='Review and rating app that harnesses community engagement to improve the experience of selecting, buying and building flat pack furniture'
 							link='https://github.com/andrewscohen/2020-Oct-GoodBuilds'
+							livelink='https://goodbuilds1.herokuapp.com/'
 						/>
 					</Col>
 
@@ -73,6 +77,7 @@ function Projects() {
 							title='Demotivational Quotes API'
 							description='REST API for serving demotiational quotes. Built with Express.Js and MongoDb.'
 							link='https://github.com/clarion22/demotivational-quotes-api'
+							livelink='https://demotivational-quotes-api.herokuapp.com/'
 						/>
 					</Col>
 				</Row>
