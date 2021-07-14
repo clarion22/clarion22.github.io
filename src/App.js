@@ -12,6 +12,13 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ScrollToTop from './components/ScrollToTop';
+import ReactGA from 'react-ga';
+
+function initializeReactGA() {
+	ReactGA.initialize('UA-198016993-2');
+	ReactGA.pageview('/homepage');
+};
+initializeReactGA();
 function App() {
 	const [load, upadateLoad] = useState(true);
 	useEffect(() => {
