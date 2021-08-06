@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.32773a5b.chunk.css",
-    "main.js": "/static/js/main.1e6b585c.chunk.js",
-    "main.js.map": "/static/js/main.1e6b585c.chunk.js.map",
+    "main.js": "/static/js/main.45b20553.chunk.js",
+    "main.js.map": "/static/js/main.45b20553.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.bd896e48.js",
     "runtime-main.js.map": "/static/js/runtime-main.bd896e48.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/static/css/2.20aa2d7b.chunk.css",
@@ -19,6 +19,7 @@
     "static/media/Soumyajit-Behera.c6e8a1ce.pdf": "/static/media/Soumyajit-Behera.c6e8a1ce.pdf",
     "static/media/Spacehunt.25e86de2.png": "/static/media/Spacehunt.25e86de2.png",
     "static/media/airgng.0653e5a9.png": "/static/media/airgng.0653e5a9.png",
+    "static/media/crazyeights.b5142f83.png": "/static/media/crazyeights.b5142f83.png",
     "static/media/demotivationalapi.b012c17e.png": "/static/media/demotivationalapi.b012c17e.png",
     "static/media/style.css": "/static/media/pre.d4812f51.svg",
     "static/media/home_main2.9a9196c2.svg": "/static/media/home_main2.9a9196c2.svg",
@@ -30,6 +31,6 @@
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.7ae332cf.chunk.js",
     "static/css/main.32773a5b.chunk.css",
-    "static/js/main.1e6b585c.chunk.js"
+    "static/js/main.45b20553.chunk.js"
   ]
 }
