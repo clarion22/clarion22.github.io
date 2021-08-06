@@ -88,8 +88,8 @@ function Projects() {
 							isBlog={false}
 							title='Crazy Eights'
 							description='Crazy Eights game wih AI player. Built with React and Redux.'
-							link='https://github.com/clarion22/demotivational-quotes-api'
-							livelink='https://demotivational-quotes-api.herokuapp.com/'
+							link='https://github.com/clarion22/crazy-eights'
+							livelink='https://clarion22.github.io/crazy-eights/'
 						/>
 					</Col>
 				</Row>
