@@ -11,6 +11,7 @@ import easymeals from '../../Assets/Projects/EasyMeals.png';
 import goodbuilds from '../../Assets/Projects/GoodBuilds.png';
 import spacehunt from '../../Assets/Projects/Spacehunt.png';
 import quotesapi from '../../Assets/Projects/demotivationalapi.png';
+import crazyeights from '../../Assets/Projects/crazyeights.png';
 
 function Projects() {
 	return (
@@ -78,6 +79,17 @@ function Projects() {
 							description='REST API for serving demotiational quotes. Built with Express.Js and MongoDb.'
 							link='https://github.com/clarion22/demotivational-quotes-api'
 							livelink='https://demotivational-quotes-api.herokuapp.com/'
+						/>
+					</Col>
+
+					<Col md={4} className='project-card'>
+						<ProjectCard
+							imgPath={crazyeights}
+							isBlog={false}
+							title='Crazy Eights'
+							description='Crazy Eights game wih AI player. Built with React and Redux.'
+							link='https://github.com/clarion22/crazy-eights'
+							livelink='https://clarion22.github.io/crazy-eights/'
 						/>
 					</Col>
 				</Row>
