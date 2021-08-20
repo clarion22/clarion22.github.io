@@ -30,10 +30,7 @@ function Home2() {
 							<br />
 							My current focus is on &nbsp;
 							<i>
-								<b className='purple'>
-									Deep Learning and Natural Language
-									Processing.
-								</b>
+								<b className='purple'>Deep Learning</b>
 							</i>
 							<br />
 							<br />
